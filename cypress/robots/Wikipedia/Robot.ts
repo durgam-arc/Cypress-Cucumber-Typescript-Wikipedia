@@ -10,7 +10,7 @@ export class Dependencies extends BaseDependencies {
 
 export class RobotEyes extends BaseEyes{
     seesMainPage(){
-        this.seesDomVisible("Main page")
+        this.seesTextVisible("Main page")
     }  
 }
 
